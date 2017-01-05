@@ -84,8 +84,5 @@ public class MainFrame extends JFrame {
                 commands.get("calculate").execute();
             }
         };
-
     }
-
-    
 }

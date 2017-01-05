@@ -19,8 +19,6 @@ public class CalculateCommand implements Command {
         this.loader = loader;
     }
     
-    
-
     @Override
     public String name() {
         return "calculate";
@@ -29,17 +27,13 @@ public class CalculateCommand implements Command {
     @Override
     public void execute() {
         moneyDisplay.display(exchange(moneyDialog.get()));
-        
     }
 
     private Money exchange(Money money) {
         return new Money(money.getAmount() * rateOf(money.getCurrency()),eur);
-        
     }
 
     private double rateOf(Currency currency) {
         return loader.load(currency, eur).getAmount();
-        
     }
-    
 }

@@ -16,7 +16,6 @@ public class SwingMoneyDisplay extends JPanel implements MoneyDisplay{
         this.add(amount());
         this.add(currency());
         this.updateUI();
-
     }
     
     private Component amount() {

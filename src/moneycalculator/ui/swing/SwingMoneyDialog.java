@@ -46,7 +46,6 @@ public class SwingMoneyDialog extends JPanel implements MoneyDialog {
         combo.addItemListener(currencyChanged());
         this.currency = (Currency) combo.getSelectedItem();
         return combo;
-        
     }
 
 

@@ -15,5 +15,7 @@ public class Main {
         MainFrame mainFrame = new MainFrame(currencyLoader.currencies());
         mainFrame.add(new CalculateCommand(mainFrame.getMoneyDialog(), mainFrame.getMoneyDisplay(),exchangeRateLoader));
         
+        
+        
     }    
 }

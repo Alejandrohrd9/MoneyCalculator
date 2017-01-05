@@ -22,6 +22,4 @@ public class ExchangeRate {
     public double getAmount() {
         return amount;
     }
-    
-    
 }

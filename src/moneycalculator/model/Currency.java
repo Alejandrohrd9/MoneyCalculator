@@ -27,6 +27,4 @@ public class Currency {
     public String toString() {
         return code;
     }
-    
-    
 }

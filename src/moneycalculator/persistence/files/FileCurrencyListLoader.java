@@ -11,7 +11,6 @@ import moneycalculator.persistence.CurrencyListLoader;
 
 public class FileCurrencyListLoader implements CurrencyListLoader {
     private final String filename;
-
     public FileCurrencyListLoader(String filename) {
         this.filename = filename;
     }
